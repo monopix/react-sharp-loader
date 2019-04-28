@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should works with a webpack and exports react module 1`] = `
+<div
+  style={
+    Object {
+      "overflow": "hidden",
+      "paddingBottom": "78%",
+      "position": "relative",
+      "width": "100%",
+    }
+  }
+>
+  <img
+    src="data:image/jpeg;base64,/9j/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAnADIDASIAAhEBAxEB/8QAGgAAAwEBAQEAAAAAAAAAAAAAAAQGBwUBAv/EAC4QAAEDAwMCBQQBBQAAAAAAAAECAwQABREGEiEiQQcTFDFhFSNRcTIWU5Khsf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwDheGumId1dtapcdKmfTSHXiEBRWsOANjB5PBPtzgZ7Ut4raXjwGLVItzLSVKZWZPlpSOvdxnbxwMCn9PH09t+lzUx8oSpJPrS0pO8ggjoODxwc85pbVu+2WCHEQlIipLjaFB7zCVZ3HPSnHv8Aig63hGbX9JjR5tkXc5K3Fq+2nKkoCjk4yM/9+atri/o9iGZarVbyFqCGkqLqFKPPYE49qy/RtxetElgekwtorILkrykkKVnkbTVZJdiSm0rVFtyHE8gpu2Dn/CgzvxEEaXckTbbGTGiOspWhtOcAFSh357d6ptO6ful0v2onoUe3pt1skKbPnxmyMAnpThOSQBnHf80vfIQnRFhtCMMsoaQG3w7naVEncAB3rRbGuI1ZNVQ0i4MO3VxxxDjcNY8lSsjKsq98ccfNB2LdpbTci3xn3LTAUtxpK1KEdIySAc+1FfMO8xY8RhkMTVhtCUBXp1DOBjOKKDBnL6yzdSLgwt2KpKNy0jray0MFBBHO7Bwfx+6595nuz9KRVPLWtQmPdSsZI2JAzj4ApZT9nkISqV9UDxCErDRbCCBxwD/rNezpVrENiLbm5i2kuLcX6spB6hjgoPxQWVmM2439mJHkpQ7u81lITkrwAduTx7AnFUXibNh2FEe3xlRiZTaxIKW9ysHbv6hjaQrIGM8Z55rObfq68RCBEltMgAJBEdonH4JKcmlL/eJ16ejLuMhL6mklCCltKNoJzjpA70F1e5UJzTFqTavttFCd6QonCwVAhR7nGOT78Uo7qly3365x0SXDGdmrDragBlOV8Djuojn4+amosnZZmY6FrUULLhSoJ/kcexAz27mm7zKsE156Qq13Zl90lSimW1tySSTjZ80GwQbsFQo6nFYWW0lX7xRWTtaxbZaQ03Ee2ISEp3OpJwOOeKKBeHdIXG62Rin8kVSwdYWeHBXFd0zantwJLjjRKjn5FFFAl/UUJTyExrHblew6kkGuZrSbDnzISY8NmIttDpWW0/yATkDH770UUFNom62mHpphCojbj5QXXFOo3ZUfcD4rou6jtjkUuNRIyVAcnyM80UUE+u/tlaj6OJyf7NFFFB//2Q=="
+    style={
+      Object {
+        "height": "100%",
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "verticalAlign": "middle",
+        "width": "100%",
+      }
+    }
+  />
+  <picture>
+    <source
+      sizes="100vw"
+      srcSet="__webpack_public_path__/test.7f4660ea.webp 60w, __webpack_public_path__/test.20510907.webp 150w"
+      type="image/webp"
+    />
+    <img
+      sizes="100vw"
+      src="__webpack_public_path__/test.346cec82.jpeg"
+      srcSet="__webpack_public_path__/test.92b92d3c.jpeg 60w, __webpack_public_path__/test.3a54733d.jpeg 150w"
+      style={
+        Object {
+          "height": "100%",
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "verticalAlign": "middle",
+          "width": "100%",
+        }
+      }
+    />
+  </picture>
+</div>
+`;

@@ -1,0 +1,4 @@
+node_modules/
+*.snap
+*.ts
+*.tsx

@@ -1,0 +1,22 @@
+{
+	"build_systems":
+	[
+		{
+			"cmd":
+			[
+				"npx babel-node $file"
+			],
+			"name": "Babel-nodejs",
+			"selector": "source.js",
+			"shell": "true",
+			"working_dir": "${project_path}"
+		}
+	],
+	"config_file": "/Users/krystian/Projects/react-sharp-loader/wallaby.js",
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	]
+}

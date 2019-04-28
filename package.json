@@ -1,0 +1,114 @@
+{
+  "name": "react-sharp-loader",
+  "description": "React component with responsive images from webpack loader",
+  "version": "0.1.18",
+  "main": "src/index.js",
+  "files": [
+    "src/index.js",
+    "src/utils/applyConfig.js",
+    "src/utils/buildTargetObject.js",
+    "src/utils/cleanup.js",
+    "src/utils/config.js",
+    "src/utils/createBase64.js",
+    "src/utils/createConfigs.js",
+    "src/utils/createHash.js",
+    "src/utils/createOptions.js",
+    "src/utils/createPath.js",
+    "src/utils/defaultOptions.js",
+    "src/utils/dominant.js",
+    "src/utils/emitFile.js",
+    "src/utils/formatFrom.js",
+    "src/utils/modularize.js",
+    "src/utils/sharpConvert.js",
+    "src/utils/size.js",
+    "src/utils/stringify.js",
+    "src/utils/swatchToPalette.js"
+  ],
+  "scripts": {
+    "test": "jest --runInBand --config jest.config.js",
+    "test:watch": "yarn test -- --watch",
+    "release": "standard-version",
+    "alpha": "yarn release -- --prerelease alpha",
+    "patch": "yarn release -- --release-as patch",
+    "minor": "yarn release -- --release-as minor",
+    "major": "yarn release -- --release-as major"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "engines": {
+    "node": ">=8.11"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@commitlint/format": "^7.5.0",
+    "@emotion/core": "^10.0.10",
+    "cacache": "^11.3.2",
+    "detect-installed": "^2.0.4",
+    "find-cache-dir": "^3.0.0",
+    "husky": "^2.1.0",
+    "loader-utils": "^1.2.3",
+    "lodash": "^4.17.11",
+    "mime": "^2.4.2",
+    "node-vibrant": "^3.2.0-alpha",
+    "react-image": "^2.1.1",
+    "rxjs": "^6.4.0",
+    "serialize-javascript": "^1.7.0",
+    "url-join": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "docz": "^0.13.7",
+    "docz-theme-default": "^0.13.7",
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-emotion": "^10.0.7",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-react-hooks": "^1.0.1",
+    "eslint-plugin-testcafe": "^0.2.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.0",
+    "react": "^16.8.6",
+    "sharp": "0.22.0",
+    "webpack": "^4.6.0"
+  },
+  "peerDependencies": {
+    "sharp": "0.22.0",
+    "webpack": "^3.0.0 || ^4.0.0"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "webpack",
+    "loader",
+    "image",
+    "picture",
+    "sharp",
+    "responsive",
+    "optimize",
+    "base64",
+    "placeholder",
+    "setsrc",
+    "lazy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:monopix/react-sharp-loader.git"
+  },
+  "homepage": "https://github.com/monopix/react-sharp-loader",
+  "bugs": {
+    "url": "https://github.com/monopix/react-sharp-loader/issues"
+  },
+  "license": "MIT",
+  "private": false,
+  "author": "Krystian Mazur"
+}
