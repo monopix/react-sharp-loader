@@ -9,11 +9,11 @@ const stringify = data =>
   ${emotionExist
     ? 'const { jsx } = require("@emotion/core")'
     : 'const React = require("react")'};
-module.exports = ${data.default}
-${Object.entries(data.files).map(([key, value]) =>
-  `module.${key} = ${serialize(value, { isJSON: true })}`
-).join(';')}
+  module.exports = ${data.default}
 `
+// ${Object.entries(data.files).map(([key, value]) =>
+//   `module.${key} = ${serialize(value, { isJSON: true })}`
+// ).join(';')}
 
   // `const React = require('react');exports.default = ${data.default}`
 
