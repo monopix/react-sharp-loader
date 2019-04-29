@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.21](https://github.com/monopix/react-sharp-loader/compare/v0.1.20...v0.1.21) (2019-04-29)
+
+
+### Bug Fixes
+
+* **stringify:** temporary turnoff export details ([5c69779](https://github.com/monopix/react-sharp-loader/commit/5c69779))
+
+
+
 ## [0.1.20](https://github.com/monopix/react-sharp-loader/compare/v0.1.19...v0.1.20) (2019-04-28)
 
 
